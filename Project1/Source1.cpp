@@ -12,10 +12,10 @@ void main()
 	big(y, x);
 	system("pause");
 }
-float big(float y,float x)
+float big(float x, float y)
 {
 	float c;
 	c = y / x;
-	cout <<"shvudkist v kilometrh za hvuluny = "<< c << endl;
+	cout << "shvudkist v kilometrh za hvuluny = " << c << endl;
 	return c;
 }
